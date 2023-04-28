@@ -1,0 +1,16 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\title{{{título}}}
+\author{ {{autor}} }
+
+\begin{document}
+\maketitle
+
+{% for section in sections %}
+    {{section}}
+    
+{% endfor %}
+
+\end{document}
